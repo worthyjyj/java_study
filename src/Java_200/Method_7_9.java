@@ -6,9 +6,9 @@ public class Method_7_9 {
     static int readPlustInt(int x) {
         int reverse = 0;
         while (x != 0) {
-            int remainder = x % 10;
-            reverse = reverse * 10 + remainder;
-            x = x / 10;
+            int remainder = x % 10; //입력한 값에서 맨뒷자리만 추출
+            reverse = reverse * 10 + remainder; // 추출한 값에서 반복돌리면서 순서대로 쌓여서 출력되도록
+            x = x / 10; // 맨끝자리수 없애주기
         }
         return reverse;
     }
