@@ -9,7 +9,8 @@ public class Method_7_8 {
         if (b <= a) {
             return a;
         } else {
-            int x = rd.nextInt(b) + a; //난수 범위 지정 : rd.nextInt(상한값)+하한값
+            int x = rd.nextInt(b) + a; //난수 범위 지정 : random.nextInt(max - min + 1) + min / rd.nextInt(최대값-최솟값+1)+최솟값
+                                       // rd.nextint(v)하면 0 ~ v-1 까지의 수가 범위로 지정됨.
             return x;
         }
     }
