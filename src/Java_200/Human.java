@@ -1,5 +1,6 @@
 package Java_200;
 
+
 class Human { //클래스 3개의 변수(필드) 선언
     String name; //이름
     int height;  //신장
@@ -20,12 +21,12 @@ class HumanTester {
         chulsu.weight = 73;
 
         System.out.println("이름: " + gildong.name);
-        System.out.println("신장: " + gildong.height +"cm");
-        System.out.println("체중: " + gildong.weight +"kg");
+        System.out.println("신장: " + gildong.height + "cm");
+        System.out.println("체중: " + gildong.weight + "kg");
         System.out.println();
 
         System.out.println("이름: " + chulsu.name);
-        System.out.println("신장: " + chulsu.height +"cm");
-        System.out.println("체중: " + chulsu.weight +"kg");
+        System.out.println("신장: " + chulsu.height + "cm");
+        System.out.println("체중: " + chulsu.weight + "kg");
     }
 }
