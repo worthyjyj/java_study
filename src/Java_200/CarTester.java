@@ -26,12 +26,6 @@ class CarTester {
             System.out.print("Y 방향으로의 이동 거리: ");
             r = sc.nextDouble();
             if (k3.move(z, r) == false) {
-                if (k3.fuelmax() == false) {
-                    if (k3.fuelmax() == k3.move(z, r)) {
-                        System.out.println("연료량을 꽉 채웠음에도 요청하신 거리는 이동하기 어렵습니다.");
-                        break;
-                    }
-                }
                 System.out.print("연료부족!! 연료를 넣으시겠습니까? [2...No/3...Yes] : "); //연료 부족 관련 반복문 실행을 위해 선택사항 생성
                 t = sc.nextInt();
             }
