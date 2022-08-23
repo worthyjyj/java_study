@@ -1,5 +1,7 @@
 package Java_200;
 
+import java.util.Scanner;
+
 class Car {
     private String name; //이름
     private String number; //번호
@@ -68,19 +70,15 @@ class Car {
             fuel=tankage;
         }
     }
-}
 
-class CarTester {
-    public static void main(String[] args) {
-        Car k3 = new Car("k3", "서울999-88", 1660,1500,3640, 40.0, 10.0,12);
-
-        k3.putSpec();
-        k3.move(3,3); //첫번째로 움직인 거리
-        k3.move(3,3); //두번째++
-        k3.refuel(45); // 연료 충전. // 연료 최대량 오버해도 자동으로 탱크 최대량으로 맞춰줌.
-        System.out.println("현재 연료량으로 이동이 가능합니까? " + k3.move(100,100));
-        System.out.println("x좌표 이동: " +k3.getx());
-        System.out.println("y좌표 이동: " +k3.gety());
-        System.out.println("현재 연료량 : " + k3.getfuel());
+    boolean fuelmax(){
+        if (fuel == tankage){
+            fuel=tankage;
+        return false;}
+        else{
+            return true;
+        }
     }
 }
+
+
