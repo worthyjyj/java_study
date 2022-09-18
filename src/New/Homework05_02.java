@@ -16,11 +16,12 @@ public class Homework05_02 {
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
                 if (i != j) {
-                    lotto[i] = lotto[i] == lotto[j] ? rnd.nextInt(45) + 1 : lotto[i];
+                    if (lotto[i] == lotto[j]) {
+                        lotto[i] = rnd.nextInt(45) + 1;
+                    }
                 }
             }
         }
-
         Arrays.sort(lotto);
         System.out.println(Arrays.toString(lotto));
 

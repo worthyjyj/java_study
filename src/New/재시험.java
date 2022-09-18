@@ -37,6 +37,8 @@ public class 재시험 {
         // 완료 완료
 
         double[] time = {8.50, 8.55, 9.01, 9.05, 9.06, 9.14, 8.45, 8.47, 8.56, 8.37};
+        //하씨 Math.round 해결하기
+        System.out.println(Math.round( 67.45638 * 100) / 100.0);
 
 //				for(int i=0; i < student.length ; i++) {
 //					if(time[i] > 9.00) {
@@ -52,8 +54,9 @@ public class 재시험 {
         for (int i = 0; i < student.length; i++) {
             if (time[i] > 9.00) {
                 arr[i] = "지각  ";
-            } else
+            } else {
                 arr[i] = "완료  ";
+            }
         }
 
         int p;
@@ -82,6 +85,7 @@ public class 재시험 {
             u = 4;
             //p는 이미 반복문 안에서 p++으로 4가 되어서 나오기 때문에 굳이 초기화하지 않아도 됨.
             System.out.println();
+
         }
     }
 }
