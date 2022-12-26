@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<input type="date" name="" id="sdate">
+<input type="date" name="" id="edate">
+<input type="button" value="확인" id="btn">
+
+<script>
+
+   const sdate = document.querySelector('#sdate')
+   const edate = document.querySelector('#edate')
+
+
+    function nullcheck(){
+        if(sdate.value=='' || edate.value==''){
+            alert('입력해주세요!')
+            return false;
+        }
+        return true;
+    }
+
+
+
+    function check(){
+        if(sdate.value > edate.value){
+                alert('종료날짜가 시작날짜 이전일 수 없습니다!')
+                return;
+        }
+        alert('저장되었습니당~')
+
+    }
+
+
+
+    btn.onclick = ()=>{
+        if(nullcheck()){
+            check()
+        }
+    }
+
+    </script>
+
+</body>
+</html>
