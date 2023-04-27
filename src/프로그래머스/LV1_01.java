@@ -1,7 +1,7 @@
 package 프로그래머스;
 
 public class LV1_01 {
-    public long solution(int a, int b) {
+    public static long solution(int a, int b) {
         long answer = 0;
 
         if((a-b)>0){
@@ -19,7 +19,7 @@ public class LV1_01 {
         }
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         LV1_01 instance = new LV1_01();
 
