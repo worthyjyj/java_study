@@ -21,8 +21,6 @@ public class LV1_01 {
 
     public static void main(String[] args) {
 
-        LV1_01 instance = new LV1_01();
-
         long result = solution(3,3);
         System.out.println(result);
     }
