@@ -50,6 +50,36 @@ public class LV1_03 {
 
 
         return answer;
+
+
+        // numbers_len은 배열 numbers의 길이입니다.
+        /*int solution(int numbers[], size_t numbers_len) {
+            int answer = 0;
+            int temp[10] = { 0, };
+
+            for(int i = 0; i < numbers_len; i++){
+                switch (numbers[i]){
+                    case 0: temp[0]++; break;
+                    case 1: temp[1]++; break;
+                    case 2: temp[2]++; break;
+                    case 3: temp[3]++; break;
+                    case 4: temp[4]++; break;
+                    case 5: temp[5]++; break;
+                    case 6: temp[6]++; break;
+                    case 7: temp[7]++; break;
+                    case 8: temp[8]++; break;
+                    case 9: temp[9]++; break;
+                }
+            }
+
+            for(int i = 0; i < 10; i++){
+                if(temp[i] == 0){
+                    answer += i;
+                }
+            }
+
+            return answer;
+        }*/
     }
 
     public static void main(String[] args) {
