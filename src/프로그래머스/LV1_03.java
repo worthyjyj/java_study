@@ -51,7 +51,7 @@ public class LV1_03 {
 
         return answer;
 
-
+    //아아아아악
         // numbers_len은 배열 numbers의 길이입니다.
         /*int solution(int numbers[], size_t numbers_len) {
             int answer = 0;
