@@ -33,6 +33,8 @@ public class LV1_05 {
         }
 
         return answer;
+
+        //오늘은 첫출근을 했다.
     }
 
     public static void main(String[] args) {
