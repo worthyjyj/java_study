@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc5c9dd5-cb1c-4119-839a-9db8d1297329" name="Changes" comment="ddit 클래스 homework">
-      <change afterPath="$PROJECT_DIR$/src/New/MiddleTest_Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/New/TV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/New/TVRemotecontroller1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/MoleArmy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/My.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/ScanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Weapon.java" afterDir="false" />
+    <list default="true" id="fc5c9dd5-cb1c-4119-839a-9db8d1297329" name="Changes" comment="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/New/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/New/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/New/MiddleTestOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/New/MiddleTestOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/New/재시험.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/New/재시험.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studying.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/백준/BOJ_10807.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -50,11 +46,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/truew/Desktop/JAVA_CONSOLE_BOARD-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,13 +64,19 @@
       <recent name="New" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="New.Car" />
+  <component name="RunManager" selected="애플리케이션.LV1_05">
+    <configuration name="이름이 지정되지 않았습니다" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="studying" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LV1_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.LV1_01" />
       <module name="studying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="New.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game.Main" />
+    <configuration name="LV1_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.LV1_02" />
       <module name="studying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="game.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="New.Main2" />
+    <configuration name="LV1_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.LV1_03" />
       <module name="studying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="New.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleTest_Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="New.MiddleTest_Answer" />
+    <configuration name="LV1_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.LV1_04" />
       <module name="studying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="New.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TVRemotecontroller1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="New.TVRemotecontroller1" />
+    <configuration name="LV1_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.LV1_05" />
       <module name="studying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="New.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="애플리케이션.이름이 지정되지 않았습니다" />
+      <item itemvalue="애플리케이션.LV1_05" />
+      <item itemvalue="애플리케이션.LV1_04" />
+      <item itemvalue="애플리케이션.LV1_03" />
+      <item itemvalue="애플리케이션.LV1_01" />
+      <item itemvalue="애플리케이션.LV1_02" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TVRemotecontroller1" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.MiddleTest_Answer" />
+        <item itemvalue="애플리케이션.LV1_05" />
+        <item itemvalue="애플리케이션.LV1_04" />
+        <item itemvalue="애플리케이션.LV1_03" />
+        <item itemvalue="애플리케이션.LV1_02" />
+        <item itemvalue="애플리케이션.LV1_01" />
       </list>
     </recent_temporary>
   </component>
@@ -146,69 +162,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657638415339</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init2">
-      <created>1659184196428</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659184196428</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Main">
-      <created>1659184334135</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659184334135</updated>
-    </task>
-    <task id="LOCAL-00003" summary="구구단">
-      <created>1659186750071</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659186750071</updated>
-    </task>
-    <task id="LOCAL-00004" summary="구구단">
-      <created>1659186806923</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659186806923</updated>
-    </task>
-    <task id="LOCAL-00005" summary="구구단">
-      <created>1659187080572</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659187080572</updated>
-    </task>
-    <task id="LOCAL-00006" summary="별찍기">
-      <created>1659203876953</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659203876953</updated>
-    </task>
-    <task id="LOCAL-00007" summary="A+B (명시되지 않은 종료조건)">
-      <created>1659246613228</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659246613228</updated>
-    </task>
-    <task id="LOCAL-00008" summary="빠른 입출력(Buffered Reader/writer 클래스 사용)">
-      <created>1659257290640</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659257290640</updated>
-    </task>
-    <task id="LOCAL-00009" summary="X보다 작은 수_스캐너함수+배열">
-      <created>1659343073671</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1659343073671</updated>
+      <workItem from="1682487349676" duration="3866000" />
+      <workItem from="1682602953498" duration="2319000" />
+      <workItem from="1682683443513" duration="5069000" />
+      <workItem from="1682771568317" duration="8065000" />
+      <workItem from="1682845409995" duration="8189000" />
+      <workItem from="1682923666597" duration="6011000" />
+      <workItem from="1683039225613" duration="111000" />
+      <workItem from="1683125091801" duration="766000" />
     </task>
     <task id="LOCAL-00010" summary="빠른 입출력 A+B (Buffered + tokenizer 사용)">
       <created>1659410511376</created>
@@ -476,8 +437,88 @@
       <option name="project" value="LOCAL" />
       <updated>1663603730393</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="프로그래머스 자바 연습문제 풀이_">
+      <created>1682604436769</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1682604436769</updated>
+    </task>
+    <task id="LOCAL-00049" summary="프로그래머스 자바 연습문제 풀이_">
+      <created>1682604896139</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1682604896139</updated>
+    </task>
+    <task id="LOCAL-00050" summary="프로그래머스 자바 연습문제 풀이_">
+      <created>1682604953391</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1682604953391</updated>
+    </task>
+    <task id="LOCAL-00051" summary="프로그래머스 자바 2021_카카오_채용연계형_인턴십_문풀">
+      <created>1682687709097</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1682687709097</updated>
+    </task>
+    <task id="LOCAL-00052" summary="프로그래머스 자바 _없는 숫자 더하기">
+      <created>1682778353743</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1682778353743</updated>
+    </task>
+    <task id="LOCAL-00053" summary="프로그래머스 자바 _없는 숫자 더하기">
+      <created>1682779460043</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1682779460043</updated>
+    </task>
+    <task id="LOCAL-00054" summary="프로그래머스 자바 _없는 숫자 더하기">
+      <created>1682864267883</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1682864267883</updated>
+    </task>
+    <task id="LOCAL-00055" summary="프로그래머스 자바 _ 가운데 글자 가져오기">
+      <created>1682872614695</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1682872614695</updated>
+    </task>
+    <task id="LOCAL-00056" summary="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기">
+      <created>1682952304103</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1682952304114</updated>
+    </task>
+    <task id="LOCAL-00057" summary="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기">
+      <created>1683039261637</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1683039261637</updated>
+    </task>
+    <task id="LOCAL-00058" summary="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기">
+      <created>1683125135435</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1683125135435</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -497,11 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="알쏭달쏭 자바 200제_a b c 중 중간값 구하기(메소드 사용)" />
-    <MESSAGE value="알쏭달쏭 자바 200제_1부터 n까지 정수의 합 구하기(메소드 사용)" />
-    <MESSAGE value="알쏭달쏭 자바 200제_문자열 반환 메소드(if문, switch문 사용)" />
-    <MESSAGE value="알쏭달쏭 자바 200제_난수(random)반환하는 메소드" />
-    <MESSAGE value="알쏭달쏭 자바 200제_숫자 반대로 읽기 메소드" />
     <MESSAGE value="알쏭달쏭 자바 200제_숫자 반대로 읽기_do-while문사용_책참고" />
     <MESSAGE value="알쏭달쏭 자바 200제_숫자 반대로 읽기_do-while문사용_내가코딩한거!" />
     <MESSAGE value="알고리즘_메트로폴리스 판별" />
@@ -522,7 +558,12 @@
     <MESSAGE value="ddit 숙제_5-4" />
     <MESSAGE value="ddit 재시험_이중for문 사용" />
     <MESSAGE value="ddit 클래스 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddit 클래스 homework" />
+    <MESSAGE value="프로그래머스 자바 연습문제 풀이_" />
+    <MESSAGE value="프로그래머스 자바 2021_카카오_채용연계형_인턴십_문풀" />
+    <MESSAGE value="프로그래머스 자바 _없는 숫자 더하기" />
+    <MESSAGE value="프로그래머스 자바 _ 가운데 글자 가져오기" />
+    <MESSAGE value="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 자바_월간 코드 챌린지 시즌1_ 두개 뽑아서 더하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,13 +574,6 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="lotto" />
-        <watch expression="names.length" language="JAVA" />
-        <watch expression="score[i]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
